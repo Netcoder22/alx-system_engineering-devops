@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m '4-listmorefiles correction'
+git commit -m '5-listfilesdigitonly correction'
 git push
