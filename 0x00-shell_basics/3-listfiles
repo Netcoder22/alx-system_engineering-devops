@@ -1,3 +1,4 @@
 #!/bin/bash
-ls -l
+ls -l | head -n 4
+ls -l | tail -n 4
 
