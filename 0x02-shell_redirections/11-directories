@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(find . -type d -name ".*" -o -name "*" | grep -vE "(\./\.|\./\.)" | wc -l)
+echo $(find . -type d -not -path '*/\.*' | wc -l)
